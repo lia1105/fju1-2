@@ -1,7 +1,7 @@
 package com.lia;
 
 public class Order {
-	String dish;
+	protected String dish;
 	int price;
 	
 	public Order(String dish, int price) {

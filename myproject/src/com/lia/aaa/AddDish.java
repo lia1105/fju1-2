@@ -4,6 +4,6 @@ import com.lia.Order;
 
 public class AddDish extends Order {
 	public AddDish() {
-		super("À\ÂI",0);
+		super("é»é¤",0);
 	}
 }
