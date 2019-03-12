@@ -11,14 +11,14 @@ public class Exercise {
 		// TODO Auto-generated method stub
 		
 		List<String> order = new ArrayList<String>();
-		//餐點可重複加點
+		
 		order.add("bigMac");
 		order.add("iceCream");
 		order.add("bigMac");
 		System.out.println(order);
 		
 		Set<Integer> memberNum = new HashSet<>();
-		//會員序號不可重複
+		
 		memberNum.add(1);
 		memberNum.add(2);
 		memberNum.add(3);
