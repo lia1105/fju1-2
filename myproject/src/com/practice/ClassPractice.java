@@ -19,7 +19,7 @@ public class ClassPractice {
 		}
 		System.out.println(v);
 		
-		
+	
 	}
 
 	

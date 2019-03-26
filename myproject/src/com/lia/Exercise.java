@@ -25,6 +25,7 @@ public class Exercise {
 		memberNum.add(1);
 		System.out.println(memberNum);
 		
+		
 	}
 
 }
