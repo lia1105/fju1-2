@@ -12,16 +12,22 @@ public class Score {
 		Scanner scanner = new Scanner(System.in);
 		try {
 			System.out.println("請輸入數學成績");
-			Score math =new Score(scanner.nextLine());
+			int math = Integer.parseInt(scanner.nextLine());
+			if (math>100 || math<0) {
+				math = (Integer) null;
+			}
 			System.out.println("請輸入英文成績");
-			Score english =new Score(scanner.nextLine());
-			int avg = (math.value + english.value)/2;
+			int eng =Integer.parseInt(scanner.nextLine());
+			if (eng>100 || eng<0) {
+				eng = (Integer) null;
+			}
+			int avg = (math + eng)/2;
 			System.out.println("平均:" + avg);
 			
-		} catch (ArithmeticException e ) {
-			System.out.println("數值運算錯誤");
+		} catch (NullPointerException e ) {
+			System.out.println("成績應為0~100");
 		} catch (NumberFormatException e ) {
-			System.out.println("數字格式錯誤");
+			System.out.println("訊息格式錯誤");
 	}
 
 	}

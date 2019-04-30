@@ -10,7 +10,7 @@ public class ClassPractice2 {
 		// TODO Auto-generated method stub
 		
 		Random random = new Random();
-		int[] f = new int[20]; //°}¦Cªº¤èªk
+		int[] f = new int[20]; //é™£åˆ—çš„æ–¹æ³•
 		List<Integer> list = new ArrayList<>();
 		for (int i=0; i<10000; i++) {
 			int r = random.nextInt(20);
