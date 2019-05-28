@@ -13,7 +13,7 @@ public class Practice0521 {
 		try {
 			
 			FileWriter fw = new FileWriter("data.txt");
-			FileInputStream fis = new FileInputStream("aa.txt");
+			FileInputStream fis = new FileInputStream("data.txt");
 			Reader in = new InputStreamReader(fis);
 			int n = in.read();
 			while (n != -1) {
