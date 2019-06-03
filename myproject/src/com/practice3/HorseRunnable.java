@@ -1,8 +1,8 @@
-/*package com.practice3;
+package com.practice3;
 
 public class HorseRunnable extends Thread {
 
-	public Horse(String name) {
+	public HorseRunnable(String name) {
 		setName(name);
 	}
 	
@@ -17,4 +17,4 @@ public class HorseRunnable extends Thread {
 				
 	}
 
-}*/
+}

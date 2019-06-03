@@ -1,19 +1,23 @@
 package com.practice3;
 
 public class Horse extends Thread {
-
+	public Horse(String name) {
+		setName(name);
+	}
 	@Override
 	public void run() {
-		
-		/*for (int i=1; i<=1000; i++) {
-			System.out.println("Horse2:" + i);
-		} */
-		
-		for (int i=1; i<=1000; i++) {
-			System.out.println(getName() + i);
+		for (int i=1; i<50; i++) {
+			StringBuilder spaces = new StringBuilder();
+			for(int j=0; j<i; j++) {
+				spaces.append(" ");
+			}
+			System.out.println(getName() + spaces.toString() + i);
+			super.run();
 		}
 		
+			
 	}
+		
+}
 			
 	
-}
